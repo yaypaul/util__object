@@ -1,6 +1,6 @@
 # utils__object 
 
-Prototype Object Utilities
+Prototype Object Utilities  
 I created these utilities some time ago for my own projects. Will they have gone through numerous versions, I've tried to keep them small, only including operations I find myself doing time after time.
 I finally found the time to make proper repros and read me files so I could upload them. I hope you find them as useful as I do!
 
@@ -16,15 +16,15 @@ As these are Prototypes and not framework functions, all you need to do is load 
 Parses a JavaScript Object into a querystring.
 ```javascript
 ( Object ).parseObjectAsQueryString();
-//key=value&key=value...
+//key=value&key=value&key=value...
 ```
 
 # Change Log
-1.2 Reduced code lines in parseObjectAsQueryString by just returning everything.
-1.1 Renamed parseObjectAsQueryString function to avoid conflict with Facebook SDK.
-1.0 Implemented defineProperty in parseObjectAsQueryString to avoid function being enumerable.
-0.5 Initial parseObjectAsQueryString release
+1.2 Reduced code lines in parseObjectAsQueryString by just returning everything.  
+1.1 Renamed parseObjectAsQueryString function to avoid conflict with Facebook SDK.  
+1.0 Implemented defineProperty in parseObjectAsQueryString to avoid function being enumerable.  
+0.5 Initial parseObjectAsQueryString release.  
 
 # License
-MIT
+MIT  
 It's Free!
