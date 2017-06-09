@@ -20,6 +20,7 @@ Parses a JavaScript Object into a querystring.
 ```
 
 # Change Log
+1.3 Updated comments to mirror read me. Forced script to strict mode.
 1.2 Reduced code lines in parseObjectAsQueryString by just returning everything.  
 1.1 Renamed parseObjectAsQueryString function to avoid conflict with Facebook SDK.  
 1.0 Implemented defineProperty in parseObjectAsQueryString to avoid function being enumerable.  
