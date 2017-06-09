@@ -1,24 +1,30 @@
 /**
- * Object Utilities (util)
- * @fileoverview Sets up prototype functions on JavaScripts Object object.
- * @author <a href="http://yaypaul.com">Paul West</a>
- * @version 1.2
- * @license None (public domain)
+ * util__object
+ * @fileoverview Sets up prototype Object Utility functions on JavaScripts Object object.
+ * @version 1.3
+ * @author <a href="http://yaypaul.com">YayPaul (Paul West)</a>
+ * @copyright 2017 Paul West.
+ * @license MIT
  */
 
 /**
  * To Query String
- * @desc Parse an object and turn it into a query string.
+ * @desc Parses a JavaScript Object into a querystring.
  * @return A query string.
+ * @since 1.0
  */
 Object.defineProperty( Object.prototype, 'parseObjectAsQueryString', {
     
     value   : function(){
         
+        'use strict';
+
         var obj = this;
         
         return Object.keys( obj ).map( function( key ){
+
             return encodeURIComponent( key ) + '=' + encodeURIComponent( obj[ key ] );
+            
         } ).join( '&' );
         
     }
