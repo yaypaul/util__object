@@ -1,7 +1,7 @@
 # utils__object 
 
 Prototype Object Utilities  
-I created these utilities some time ago for my own projects. They will have gone through numerous versions, I've tried to keep them small, only including operations I find myself doing time after time.
+I created these utilities some time ago for my own projects. They will have gone through numerous versions, I've tried to keep them small, only including operations I find myself doing time after time.  
 I finally found the time to make proper repros and read me files so I could upload them. I hope you find them as useful as I do!
 
 ### Version
@@ -20,15 +20,15 @@ Object.parseObjectAsQueryString();
 ```
 
 ### mergeObject
-Merges a JavaScript Object into the current object.
+Merges a JavaScript Object into the current object.  
 Existing keys will be replaced. New keys will be added.
 ```javascript
 Object.mergeObject( Object );
 ```
 
 # Change Log
-1.4 Added mergeObject prototype function.
-1.3 Updated comments to mirror read me. Forced script to strict mode.
+1.4 Added mergeObject prototype function.  
+1.3 Updated comments to mirror read me. Forced script to strict mode.  
 1.2 Reduced code lines in parseObjectAsQueryString by just returning everything.  
 1.1 Renamed parseObjectAsQueryString function to avoid conflict with Facebook SDK.  
 1.0 Implemented defineProperty in parseObjectAsQueryString to avoid function being enumerable.  
