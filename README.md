@@ -15,11 +15,19 @@ As these are Prototypes and not framework functions, all you need to do is load 
 ### parseObjectAsQueryString
 Parses a JavaScript Object into a querystring.
 ```javascript
-( Object ).parseObjectAsQueryString();
+Object.parseObjectAsQueryString();
 //key=value&key=value&key=value...
 ```
 
+### mergeObject
+Merges a JavaScript Object into the current object.
+Existing keys will be replaced. New keys will be added.
+```javascript
+Object.mergeObject( Object );
+```
+
 # Change Log
+1.4 Added mergeObject prototype function.
 1.3 Updated comments to mirror read me. Forced script to strict mode.
 1.2 Reduced code lines in parseObjectAsQueryString by just returning everything.  
 1.1 Renamed parseObjectAsQueryString function to avoid conflict with Facebook SDK.  
